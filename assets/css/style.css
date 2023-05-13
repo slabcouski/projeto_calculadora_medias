@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #E7E7E7;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.wrap{
+    width: 30rem;
+    height: auto;
+}
+.wrap header{
+    display: flex;
+}
+.wrap header img{
+    width: 2rem;
+}
+.wrap header h1{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.form-average{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem auto;
+}
+.form-average input{
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+.form-average input[type=number]{
+    width: 4rem;
+}
+.form-average input::placeholder{
+    padding-left: .5rem;
+    font-weight: 400;
+}
+.form-average button{
+    background-color: #009432;
+    color: #fff;
+    border: none;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+.table .text{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.table hr{
+    margin-top: 0.5rem;
+    border: 1px solid black;
+}
+.table .row-table{
+    display: flex;
+    gap: 2rem;
+    margin-top: .5rem;
+    width: 100%;
+}
+.row-table{
+    text-align: center;
+}
+.row-table .col{
+    width: 33.3%;
+} 
+.row-table img{
+    width: 1rem;
+}
+#division{
+    border: 1px solid #b4b4b4;
+}
+footer .row-table{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+footer .col{
+    display: flex;
+    justify-content: center;
+}
+.approve{
+    background-color: #009432;
+    color: #fff;
+    width: 80%;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+.dispprove{
+    background-color: #ff0000;
+    color: #fff;
+    width: 80%;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}

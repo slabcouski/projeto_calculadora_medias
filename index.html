@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <header>
+                <img src="./assets/img/logo.png" alt="capelo e diploma">
+                <h1>Calculadora de médias</h1>
+            </header>
+            <main class="calc-average">
+                <form id="form-activity" class="form-average">
+                    <input type="text" id="name-activity" required placeholder="Nome da atividade">
+                    <input type="number" id="note-activity" required placeholder="Nota" min="0" max="10">
+                    <button type="submit" id="btn-calc">Adicionar +</button>
+                </form>
+                <div class="table">
+                    <div class="row-table text">
+                        <div class="col col-one">Nome da atividade</div>
+                        <div class="col col-two">Nota</div>
+                        <div class="col col-tree">Aprovado?</div>
+                    </div>
+                    <hr>
+                    <div id="new-row"></div>
+                </div>
+            </main>
+            <footer>
+                <div class="row-table">
+                    <div class="col col-one">Nota média</div>
+                        <div id="averageTotal" class="col col-two"></div>
+                        <div id="result" class="col col-tree"></div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
